@@ -12,7 +12,7 @@ jobs:
       # https://stackoverflow.com/questions/71464006/error-an-unexpected-error-occurred-eacces-permission-denied-in-github-actions
       - uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: 12.20.0
 
       - name: Build image push to aliyun
         uses: docker/build-push-action@v1
